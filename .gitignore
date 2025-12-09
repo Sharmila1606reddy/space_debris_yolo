@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# YOLO runs (generated after training)
+runs/
+
+# Dataset (too large for GitHub)
+data/
+yolo_dataset/
+
+# Model weights (large files)
+*.pt
+*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
